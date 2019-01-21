@@ -1,1 +1,15 @@
+
+
 :t Frank {frankField = Node 'a' EmptyTree EmptyTree} --cannot work
+
+
+fmap :: (b->c)-> Either a b -> Either a c 
+exercise3.hs:59:1-4: error: …
+    The type signature for ‘fmap’ lacks an accompanying binding
+      (The type signature must be given where ‘fmap’ is declared)
+   |
+Compilation failed.
+
+
+
+
